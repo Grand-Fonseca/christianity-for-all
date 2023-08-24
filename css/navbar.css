@@ -1,0 +1,21 @@
+nav{
+    border: solid 2px red;
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5em;
+}
+.logo-img{
+    width: 7%;
+}
+.logo-img > a > img{
+    width: 100%;
+}
+.logo > a{
+    text-decoration: none;
+}
+.logo > a > h1{
+    color: black;
+}
